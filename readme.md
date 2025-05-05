@@ -45,7 +45,7 @@
     `POST https://uat.dozendiamonds.com/api/v1/user/908/analytics`
 
 15. **Withdraw Extra Cash**  
-    `POST https://uat.dozendiamonds.com/api/v1/user/:id/withdrawFunds/avaliable-cash`  
+    `POST https://uat.dozendiamonds.com/api/v1/user/:id/withdrawFunds/extra-cash`  
     **Request Body:**
     ```json
     {
@@ -55,7 +55,7 @@
     ```
 
 16. **Withdraw Available Cash**  
-    `POST https://uat.dozendiamonds.com/api/v1/user/:id/withdrawFunds/avaliable-cash`  
+    `POST https://uat.dozendiamonds.com/api/v1/user/:id/withdrawFunds/available-cash`  
     **Request Body:**
     ```json
     {
